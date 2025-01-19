@@ -34,7 +34,7 @@
                     data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <img class="rounded-circle header-profile-user" src="assets/images/users/avatar-1.jpg"
                         alt="Header Avatar">
-                    <span class="d-none d-xl-inline-block ms-1" key="t-henry">Henry</span>
+                    <span class="d-none d-xl-inline-block ms-1" key="t-henry">Rajan Sharma</span>
                     <i class="mdi mdi-chevron-down d-none d-xl-inline-block"></i>
                 </button>
                 <div class="dropdown-menu dropdown-menu-end">
@@ -42,8 +42,8 @@
                     <a class="dropdown-item" href="#"><i class="bx bx-user font-size-16 align-middle me-1"></i>
                         <span key="t-profile">Profile</span></a>
 
-                    
-                    <a class="dropdown-item text-danger" href="#"><i
+
+                    <a class="dropdown-item text-danger" href="{{ route('logout') }}"><i
                             class="bx bx-power-off font-size-16 align-middle me-1 text-danger"></i> <span
                             key="t-logout">Logout</span></a>
                 </div>

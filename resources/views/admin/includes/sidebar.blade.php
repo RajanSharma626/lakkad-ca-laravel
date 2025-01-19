@@ -16,18 +16,19 @@
                 </li>
 
                 <li>
-                    <a href="chat.html" class="waves-effect">
+                    <a href="testimonials" class="waves-effect">
                         <i class="bx bx-chat"></i>
-                        <span key="t-chat">Chat</span>
+                        <span key="t-testimonials">Testimonials</span>
                     </a>
                 </li>
 
                 <li>
-                    <a href="apps-filemanager.html" class="waves-effect">
-                        <i class="bx bx-file"></i>
-                        <span key="t-file-manager">File Manager</span>
+                    <a href="faqs" class="waves-effect">
+                        <i class="bx bx-conversation"></i>
+                        <span key="t-faq">FAQs</span>
                     </a>
                 </li>
+
             </ul>
         </div>
         <!-- Sidebar -->
