@@ -26,9 +26,9 @@
                                     </li>
                                     <li class="dropdown-parrent"><a href="#">State-government-policy </a>
                                     </li>
-                                    <li><a href="blog-mesonry-3.html">Blogs</a></li>
+                                    <li><a href="/faq">FAQs</a></li>
 
-                                    <li><a href="contact-1.html">Contact</a>
+                                    <li><a href="contact-us">Contact</a>
                                     </li>
                                 </ul>
                             </div>
