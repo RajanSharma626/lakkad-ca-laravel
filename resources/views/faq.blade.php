@@ -206,39 +206,54 @@
     <div class="main-contact-form section-padding">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4">
-                    <div class="heading2 mr50">
+                <div class="col-lg-6">
+                    <div class="heading2 mr20">
                         <small class="heading-top inner-heading-top"><img src="assets/img/icons/hands.svg"
-                                alt="" />Our Success in
-                            Numbers</small>
+                                alt="" />Contact us</small>
                         <h2>Let’s Work Together</h2>
-                        <p>
+                        {{-- <p>
                             Share your vision for your next projects with us now. Please
                             contact us for basic questions. we’re here to help!
-                        </p>
+                        </p> --}}
+
+                        <img src="{{ asset('assets/img/contact/contact-us.webp') }}" alt=""
+                            class="img-fluid rounded">
                     </div>
                 </div>
-                <div class="col-lg-8">
+                <div class="col-lg-6">
                     <div class="main-form">
                         <form action="#">
                             <div class="row">
                                 <div class="col-lg-6">
-                                    <input type="text" name="fname" placeholder="First Name" />
+                                    <input type="text" class="form-control" name="fname"
+                                        placeholder="First Name" />
                                 </div>
                                 <div class="col-lg-6">
-                                    <input type="text" name="lname" placeholder="Last Name" />
+                                    <input type="text" class="form-control" name="lname" placeholder="Last Name" />
                                 </div>
                                 <div class="col-12">
-                                    <input type="email" name="email" placeholder="Email Address" />
+                                    <input type="email" class="form-control" name="email"
+                                        placeholder="Email Address" />
                                 </div>
-                                <div class="col-lg-6">
-                                    <input type="text" name="service" placeholder="Service Interested In" />
+                                <div class="col-lg-12">
+                                    <input type="number" class="form-control" name="number" placeholder="Phone no." />
                                 </div>
-                                <div class="col-lg-6">
-                                    <input type="text" name="subject" placeholder="Subject" />
+                                <div class="col-lg-12">
+                                    <label for="">Purpose<span class="text-danger">*</span></label> <br>
+
+                                    <input type="radio" name="purpose" value="General Inquiry" id="General Inquiry">
+                                    <label for="" class="fs-6">Enquiry</label> &nbsp;&nbsp;
+                                    <input type="radio" name="purpose" value="General Inquiry" id="General Inquiry">
+                                    <label for="" class="fs-6">Feedback</label>&nbsp;&nbsp;
+                                    <input type="radio" name="purpose" value="General Inquiry" id="General Inquiry">
+                                    <label for="" class="fs-6">Job Application</label>&nbsp;&nbsp;
+                                    <input type="radio" name="purpose" value="General Inquiry" id="General Inquiry">
+                                    <label for="" class="fs-6">Suggestions</label>
+
                                 </div>
                                 <div class="col-12">
-                                    <textarea name="message" id="" cols="30" rows="5" placeholder="Tell Us About Your Projects"></textarea>
+                                    <textarea name="message" class="form-control" id="" cols="30" rows="5"
+                                        placeholder="Tell Us About Your Projects"></textarea>
                                 </div>
                                 <div class="col-12">
                                     <button type="submit" class="full-btn theme-btn-2">

@@ -137,28 +137,17 @@
 
     <div class="section-padding">
         <div class="container">
-            <div class="row">
+            <div class="row mb-5">
                 <div class="col-md-6">
                     <div class="heading2 no-margin-heading">
-                        <small class="heading-top inner-heading-top text-black">Our Mission, Values, and Motto
+                        <h2>Our Mission</h2>
+                    </div>
 
-                        </small>
-                        <h2>Mission</h2>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="heading2 no-margin-heading">
-                        <small class="heading-top inner-heading-top text-black">
-                            Stand for the Growth of All
-                        </small>
-                        <h2>Vision</h2>
-                    </div>
-                </div>
-                <div class="col-md-6">
                     <div class="heading2 no-margin-heading">
                         <p>
                             Since its inception, our mission has been to deliver professional services of the highest
-                            global standards and achieve “<b>Total Customer Satisfaction</b>”. We strive to meet the evolving
+                            global standards and achieve “<b>Total Customer Satisfaction</b>”. We strive to meet the
+                            evolving
                             needs of the industry and economy by providing quality services under one roof, ensuring
                             they are delivered in a <b>professional, timely,</b> and <b>efficient</b> manner.
 
@@ -166,9 +155,34 @@
                     </div>
                 </div>
                 <div class="col-md-6">
+                    <div class="about-bg-main-img position-relative mr50">
+                        <img src="{{ asset('assets/img/about/our-mission.jpg') }}" class="img-fluid rounded"
+                            alt="">
+                        <div class="corner-right-bottom-shape2 position-absolute">
+                            <img src="assets/img/shapes/shape-right-bottom2.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class="col-md-6">
+                    <div class="about-bg-main-img position-relative mr50">
+                        <img src="{{ asset('assets/img/about/our-vision.jpeg') }}" class="img-fluid rounded"
+                            alt="">
+                        <div class="corner-right-bottom-shape2 position-absolute">
+                            <img src="assets/img/shapes/shape-right-bottom2.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="heading2 no-margin-heading">
+                        <h2>Our Vision</h2>
+                    </div>
+
                     <div class="heading2 no-margin-heading">
                         <p>
-                            At <b>Lakkad Consultancy</b>, our vision is to be a catalyst for growth by empowering businesses of
+                            At <b>Lakkad Consultancy</b>, our vision is to be a catalyst for growth by empowering
+                            businesses of
                             all sizes with the right financial guidance and resources.
                             he Growth of All
 
@@ -180,8 +194,7 @@
     </div>
 
     <!--=====Counter start=======-->
-    <div class="counter-4 inner-counter-4 inner-font-1 section-padding"
-        style="
+    <div class="counter-4 inner-counter-4 inner-font-1 section-padding" style="
         background: #005691;
       ">
         <div class="container">
@@ -193,7 +206,7 @@
                             Numbers</small>
                         <h2>Achievements & Statistics
                             Our 21 Years of Excellence
-                            </h2>
+                        </h2>
                     </div>
                 </div>
             </div>
@@ -218,7 +231,7 @@
                         <p>Employees</p>
                     </div>
                 </div>
-                
+
             </div>
         </div>
     </div>
@@ -237,123 +250,119 @@
             </div>
             <div class="row">
                 <div class="col-md-6 col-lg-4">
-                    <div class="single-service text-center">
+                    <div class="single-service border text-center">
                         <div class="service-icon bg-24">
                             <img src="assets/img/icons/service-11.png" alt="" />
                         </div>
                         <h3>Integrity</h3>
-                        {{-- <p>
-                            See whether your time-off schedule overlaps with a teammate’s
-                            while applying for or reviewing a time-off request.
-                        </p> --}}
+                        <p>
+                            We uphold the highest ethical standards, ensuring honesty and fairness in every action.
+                        </p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="single-service text-center">
+                    <div class="single-service border text-center">
                         <div class="service-icon bg-24">
                             <img src="assets/img/icons/service-12.png" alt="" />
                         </div>
                         <h3>Responsibility</h3>
-                        {{-- <p>
-                            Get notified in any Slack channel about who is on break, the
-                            next public holiday, and who to wish a happy birthday.
-                        </p> --}}
+                        <p>
+                            We take ownership of our actions and commitments, delivering on our promises with
+                            accountability.
+                        </p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="single-service text-center">
+                    <div class="single-service border text-center">
                         <div class="service-icon bg-24">
                             <img src="assets/img/icons/service-13.png" alt="" />
                         </div>
                         <h3>Authenticity</h3>
-                        {{-- <p>
-                            Get notified in any Slack channel about who is on break, the
-                            next public holiday, and who to wish a happy birthday.
-                        </p> --}}
+                        <p>
+                            We stay true to our values, fostering genuine relationships and meaningful interactions.
+                        </p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="single-service text-center">
+                    <div class="single-service border text-center">
                         <div class="service-icon bg-24">
                             <img src="assets/img/icons/service-14.png" alt="" />
                         </div>
                         <h3>Passionate</h3>
-                        {{-- <p>
-                            See whether your time-off schedule overlaps with a teammate’s
-                            while applying for or reviewing a time-off request.
-                        </p> --}}
+                        <p>
+                            Our unwavering enthusiasm drives us to excel and create exceptional experiences.
+
+                        </p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="single-service text-center">
+                    <div class="single-service border text-center">
                         <div class="service-icon bg-24">
                             <img src="assets/img/icons/service-15.png" alt="" />
                         </div>
                         <h3>Alive</h3>
-                        {{-- <p>
-                            Get notified in any Slack channel about who is on break, the
-                            next public holiday, and who to wish a happy birthday.
-                        </p> --}}
+                        <p>
+                            We embrace change with energy and positivity, staying vibrant and adaptable.
+
+                        </p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="single-service text-center">
+                    <div class="single-service border text-center">
                         <div class="service-icon bg-24">
                             <img src="assets/img/icons/service-16.png" alt="" />
                         </div>
                         <h3>Reliable</h3>
-                        {{-- <p>
-                            Get notified in any Slack channel about who is on break, the
-                            next public holiday, and who to wish a happy birthday.
-                        </p> --}}
+                        <p>
+                            You can count on us to consistently deliver quality and dependability.
+                        </p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="single-service text-center">
+                    <div class="single-service border text-center">
                         <div class="service-icon bg-24">
                             <img src="assets/img/icons/service-16.png" alt="" />
                         </div>
                         <h3>Customer-Centric</h3>
-                        {{-- <p>
-                            Get notified in any Slack channel about who is on break, the
-                            next public holiday, and who to wish a happy birthday.
-                        </p> --}}
+                        <p>
+                            Our customers are at the heart of everything we do, shaping our strategies and services.
+
+                        </p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="single-service text-center">
+                    <div class="single-service border text-center">
                         <div class="service-icon bg-24">
                             <img src="assets/img/icons/service-16.png" alt="" />
                         </div>
                         <h3>Innovative</h3>
-                        {{-- <p>
-                            Get notified in any Slack channel about who is on break, the
-                            next public holiday, and who to wish a happy birthday.
-                        </p> --}}
+                        <p>
+                            We challenge the status quo, continuously evolving to provide cutting-edge solutions.
+
+                        </p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="single-service text-center">
+                    <div class="single-service border text-center">
                         <div class="service-icon bg-24">
                             <img src="assets/img/icons/service-16.png" alt="" />
                         </div>
                         <h3>Healthy</h3>
-                        {{-- <p>
-                            Get notified in any Slack channel about who is on break, the
-                            next public holiday, and who to wish a happy birthday.
-                        </p> --}}
+                        <p>
+                            We prioritize well-being, promoting balanced lifestyles and sustainable practices.
+
+                        </p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="single-service text-center">
+                    <div class="single-service border text-center">
                         <div class="service-icon bg-24">
                             <img src="assets/img/icons/service-16.png" alt="" />
                         </div>
                         <h3>Transparency</h3>
-                        {{-- <p>
-                            Get notified in any Slack channel about who is on break, the
-                            next public holiday, and who to wish a happy birthday.
-                        </p> --}}
+                        <p>
+                            We believe in open communication, ensuring clarity and trust in all our dealings.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -368,7 +377,7 @@
                 <div class="col-lg-8 m-auto">
                     <div class="heading2 text-center">
                         <small class="heading-top inner-heading-top"><img src="assets/img/icons/hands.svg"
-                                alt="" />Our team   </small>
+                                alt="" />Our team </small>
                         <h2>We Are a Strong and United Family </h2>
                     </div>
                 </div>

@@ -32,6 +32,11 @@ Route::get('/privacy-policy', function () {
     return view('privacy');
 });
 
+//=================== Project Finance ===================
+Route::get('/project-finance', function () {
+    return view('project-finance');
+});
+
 
 // ============ Admin Routes ============
 Route::withoutMiddleware([AuthMiddleware::class])->group(function () {
@@ -73,7 +78,7 @@ Route::middleware([AuthMiddleware::class])->group(function () {
 
     Route::post('/admin/testimonials/update', [AdminController::class, 'addTestimonial'])->name('admin.testimonials.update');
     Route::post('/admin/testimonials/add', [AdminController::class, 'addTestimonial'])->name('admin.testimonials.store');
-    
+
     // ========== FQA ==========
     Route::get('/admin/faqs', [AdminController::class, 'faq']);
     Route::get('/admin/add-faq', function () {
