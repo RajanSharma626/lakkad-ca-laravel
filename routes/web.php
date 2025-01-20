@@ -37,6 +37,11 @@ Route::get('/project-finance', function () {
     return view('project-finance');
 });
 
+//=================== Testimonial ===================
+Route::get('/testimonials', function () {
+    return view('testimonial');
+});
+
 
 // ============ Admin Routes ============
 Route::withoutMiddleware([AuthMiddleware::class])->group(function () {

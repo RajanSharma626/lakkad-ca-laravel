@@ -6233,8 +6233,6 @@ a.footer-logo {
 }
 
 .single-logo {
-  height: 80px;
-  width: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -6247,15 +6245,11 @@ a.footer-logo {
 }
 
 .logos2 .single-logo {
-  height: 50px;
-  width: 90px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.logos2 .single-logo img {
-  opacity: 0.5;
-}
+
 
 .owl-carousel .owl-item .single-logo img {
   width: auto;

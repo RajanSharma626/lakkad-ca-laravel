@@ -130,6 +130,26 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="col-12 mt-5">
+                    <div class="space50"></div>
+                    <h1>Leading the Way in Subsidy and Project Finance Solutions Across India.</h1>
+                </div>
+
+                <div class="col-12">
+                    <div class="space50"></div>
+                    <div class="row align-items-center justify-content-between">
+                        <div class="col-md-4 text-center mb-5">
+                            <img src="assets/img/case-study/itta.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-md-4 text-center mb-5">
+                            <img src="assets/img/case-study/sgcci.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-md-4 text-center mb-5">
+                            <img src="assets/img/case-study/the_Confederation_of_Indian_Industry.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

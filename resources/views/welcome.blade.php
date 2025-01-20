@@ -7,30 +7,6 @@
 
 <body>
 
-    <!-- Preloader -->
-    {{-- <section>
-        <div id="preloader">
-            <div id="ctn-preloader" class="ctn-preloader ctn-preloader1">
-                <div class="animation-preloader">
-                    <!-- <div class="spinner"></div> -->
-
-                    <div class="cp-preloader cp-preloader_type2">
-                        <span class="cp-preloader__letter" data-preloader="L">L</span>
-                        <span class="cp-preloader__letter" data-preloader="A">A</span>
-                        <span class="cp-preloader__letter" data-preloader="K">K</span>
-                        <span class="cp-preloader__letter" data-preloader="K">K</span>
-                        <span class="cp-preloader__letter" data-preloader="A">A</span>
-                        <span class="cp-preloader__letter" data-preloader="D">D</span>
-                    </div>
-
-                </div>
-                <div class="loader-section section-left"></div>
-                <div class="loader-section section-right"></div>
-            </div>
-        </div>
-    </section> --}}
-    <!--=====Preloader end=======-->
-
     <!--=====Header start=======-->
     <x-navbar />
     <!--=====Header end=======-->
@@ -58,27 +34,6 @@
                                         class="fa-solid fa-arrow-right"></i></span></a>
                             <a class="theme-btn-3" href="contact-1.html">Schdule A Call <span><i
                                         class="fa-solid fa-arrow-right"></i></span></a>
-                        </div>
-                        <div class="space80"></div>
-                        <div class="logo-area2" data-aos="fade-right" data-aos-duration="1400">
-                            <p>Trusted by more than 400+ companies worldwide</p>
-                            <div class="logos logos2 owl-carousel">
-                                <div class="single-logo">
-                                    <img src="assets/img/logo/logo21.png" alt="">
-                                </div>
-                                <div class="single-logo">
-                                    <img src="assets/img/logo/logo22.png" alt="">
-                                </div>
-                                <div class="single-logo">
-                                    <img src="assets/img/logo/logo23.png" alt="">
-                                </div>
-                                <div class="single-logo">
-                                    <img src="assets/img/logo/logo24.png" alt="">
-                                </div>
-                                <div class="single-logo">
-                                    <img src="assets/img/logo/logo25.png" alt="">
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -214,10 +169,30 @@
                         </ul>
                         <div class="space50"></div>
                         <div class="button-group" data-aos="fade-left" data-aos-duration="1200">
-                            <a class="theme-btn-2" href="about-1.html">More About Us <span><i
+                            <a class="theme-btn-2" href="/about">More About Us <span><i
                                         class="fa-solid fa-arrow-right"></i></span></a>
                         </div>
 
+                    </div>
+                </div>
+
+                <div class="col-12 mt-5">
+                    <div class="space50"></div>
+                    <h1>Leading the Way in Subsidy and Project Finance Solutions Across India.</h1>
+                </div>
+
+                <div class="col-12">
+                    <div class="space50"></div>
+                    <div class="row align-items-center justify-content-between">
+                        <div class="col-md-4 text-center mb-5">
+                            <img src="assets/img/case-study/itta.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-md-4 text-center mb-5">
+                            <img src="assets/img/case-study/sgcci.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-md-4 text-center mb-5">
+                            <img src="assets/img/case-study/the_Confederation_of_Indian_Industry.png" class="img-fluid" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -352,9 +327,9 @@
                         </div>
                         <div class="service-content">
                             <h3 class="font-f-3">Project Finance Consultation</h3>
-                            <p class="font-f-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo vero
-                                error blanditiis iusto sunt amet voluptatem tenetur aliquid. Ex, corrupti.</p>
-                            <a href="#" class="theme-btn-16">Learn More </a>
+                            <p class="font-f-3">At Lakkad Consultancy, we are dedicated to turning your dreams into
+                                reality through structured funding solutions. </p>
+                            <a href="project-finance" class="theme-btn-16">Learn More </a>
                         </div>
                     </div>
                 </div>
@@ -366,103 +341,68 @@
                         </div>
                         <div class="service-content">
                             <h3 class="font-f-3">Government Benefits (Subsidies)</h3>
-                            <p class="font-f-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, nobis.
-                                Eos saepe obcaecati suscipit, sed voluptatibus repellat nobis eaque neque!
+                            <p class="font-f-3">At Lakkad Consultancy, we assist businesses in accessing both Central
+                                and State Government Benefit schemes...
                             </p>
                             <a href="#" class="theme-btn-16">Learn More </a>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-md-6">
-                    <div class="single-inner-service single-inner-service-2 trans-1">
-                        <div class="service-icon bg-24">
-                            <img src="assets/img/icons/interest.svg" alt="">
-                        </div>
-                        <div class="service-content">
-                            <h3 class="font-f-3">Interest & Capital Subsidies</h3>
-                            <p class="font-f-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique
-                                praesentium officia molestiae laborum sit doloremque alias a quod, animi nemo!</p>
-                            <a href="#" class="theme-btn-16">Learn More </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6">
-                    <div class="single-inner-service single-inner-service-2 trans-1">
-                        <div class="service-icon bg-24">
-                            <img src="assets/img/icons/approvals.svg" alt="">
-                        </div>
-                        <div class="service-content">
-                            <h3 class="font-f-3">Registrations and Approvals</h3>
-                            <p class="font-f-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
-                                voluptatum, unde nostrum reiciendis molestias vero ipsum dignissimos praesentium natus
-                                enim.</p>
-                            <a href="#" class="theme-btn-16">Learn More </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6">
-                    <div class="single-inner-service single-inner-service-2 trans-1">
-                        <div class="service-icon bg-24">
-                            <img src="assets/img/icons/marketing.svg" alt="">
-                        </div>
-                        <div class="service-content">
-                            <h3 class="font-f-3">Marketing &amp; Advertising</h3>
-                            <p class="font-f-3">Crafting unique themes, features, and sophisticated integrations into a
-                                complete
-                                experience has been our portfolio.</p>
-                            <a href="#" class="theme-btn-16">Learn More </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6">
-                    <div class="single-inner-service single-inner-service-2 trans-1">
-                        <div class="service-icon bg-24">
-                            <img src="assets/img/icons/acquisition.svg" alt="">
-                        </div>
-                        <div class="service-content">
-                            <h3 class="font-f-3">User Acquisition</h3>
-                            <p class="font-f-3">Crafting unique themes, features, and sophisticated integrations into a
-                                complete
-                                experience has been our portfolio.</p>
-                            <a href="#" class="theme-btn-16">Learn More </a>
+                <div class="col-12 mt-5">
+                    <div class="logo-area2" data-aos="fade-right" data-aos-duration="1400">
+                        <div class="logos logos2 owl-carousel company">
+                            <div class="single-logo">
+                                <img src="assets/img/company/1.svg" alt="">
+                            </div>
+                            <div class="single-logo">
+                                <img src="assets/img/company/2.svg" alt="">
+                            </div>
+                            <div class="single-logo">
+                                <img src="assets/img/company/3.svg" alt="">
+                            </div>
+                            <div class="single-logo">
+                                <img src="assets/img/company/4.svg" alt="">
+                            </div>
+                            <div class="single-logo">
+                                <img src="assets/img/company/5.svg" alt="">
+                            </div>
+                            <div class="single-logo">
+                                <img src="assets/img/company/6.svg" alt="">
+                            </div>
+                            <div class="single-logo">
+                                <img src="assets/img/company/7.svg" alt="">
+                            </div>
+                            <div class="single-logo">
+                                <img src="assets/img/company/8.svg" alt="">
+                            </div>
+                            <div class="single-logo">
+                                <img src="assets/img/company/9.svg" alt="">
+                            </div>
+                            <div class="single-logo">
+                                <img src="assets/img/company/10.svg" alt="">
+                            </div>
+                            <div class="single-logo">
+                                <img src="assets/img/company/11.svg" alt="">
+                            </div>
+                            <div class="single-logo">
+                                <img src="assets/img/company/12.svg" alt="">
+                            </div>
+                            <div class="single-logo">
+                                <img src="assets/img/company/13.svg" alt="">
+                            </div>
+                            <div class="single-logo">
+                                <img src="assets/img/company/14.svg" alt="">
+                            </div>
+                            <div class="single-logo">
+                                <img src="assets/img/company/15.svg" alt="">
+                            </div>
+                            <div class="single-logo">
+                                <img src="assets/img/company/16.svg" alt="">
+                            </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-md-6">
-                    <div class="single-inner-service single-inner-service-2 trans-1">
-                        <div class="service-icon bg-24">
-                            <img src="assets/img/icons/artificial.svg" alt="">
-                        </div>
-                        <div class="service-content">
-                            <h3 class="font-f-3">Technology Consulting</h3>
-                            <p class="font-f-3">Crafting unique themes, features, and sophisticated integrations into a
-                                complete
-                                experience has been our portfolio.</p>
-                            <a href="#" class="theme-btn-16">Learn More </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6">
-                    <div class="single-inner-service single-inner-service-2 trans-1">
-                        <div class="service-icon bg-24">
-                            <img src="assets/img/icons/marketing-2.svg" alt="">
-                        </div>
-                        <div class="service-content">
-                            <h3 class="font-f-3">Go-To-Market Strategy</h3>
-                            <p class="font-f-3">Crafting unique themes, features, and sophisticated integrations into a
-                                complete
-                                experience has been our portfolio.</p>
-                            <a href="#" class="theme-btn-16">Learn More </a>
-                        </div>
-                    </div>
-                </div>
-
             </div>
         </div>
     </div>
@@ -643,79 +583,6 @@
         </div>
     </div>
     <!--=====Testimonial end=======-->
-
-    <!--=====Blog start=======-->
-    <div class="blog-area blog2 section-padding2">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 m-auto">
-                    <div class="heading2 text-center">
-                        <small data-aos="fade-up" data-aos-duration="600" class="heading-top">Blogs</small>
-                        <h2 data-aos="fade-up" data-aos-duration="800"><span class="heilight-left">Take</span> a look
-                            at the latest
-                            articles.</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4" data-aos="fade-up" data-aos-duration="600">
-                    <div class="single-blog blog-md ">
-                        <div class="blog-img">
-                            <img src="assets/img/blog/blog4.png" alt="">
-                        </div>
-                        <div class="blog-contents">
-                            <ul class="blog-tags">
-                                <li><a href="blog-1.html"> <img src="assets/img/icons/hands.svg"
-                                            alt="">Stories</a></li>
-                            </ul>
-                            <h3><a href="single.html">How To Write Your Consulting Firm Mission Statement (& Why It’s
-                                    Important).</a>
-                            </h3>
-                            <a href="single-1.html" class="theme-btn-4">Read More <span><i
-                                        class="fa-solid fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4" data-aos="fade-up" data-aos-duration="800">
-                    <div class="single-blog blog-md">
-                        <div class="blog-img">
-                            <img src="assets/img/blog/blog1.png" alt="">
-                        </div>
-                        <div class="blog-contents">
-                            <ul class="blog-tags">
-                                <li><a href="blog-1.html"> <img src="assets/img/icons/hands.svg"
-                                            alt="">Product</a></li>
-                            </ul>
-                            <h3><a href="single.html">Personal Branding For Consultants: Be Authentic To Get More
-                                    Clients.</a></h3>
-                            <a href="single-1.html" class="theme-btn-4">Read More <span><i
-                                        class="fa-solid fa-arrow-right"></i></a>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-lg-4" data-aos="fade-up" data-aos-duration="1000">
-                    <div class="single-blog blog-md">
-                        <div class="blog-img">
-                            <img src="assets/img/blog/blog2.png" alt="">
-                        </div>
-                        <div class="blog-contents">
-                            <ul class="blog-tags">
-                                <li><a href="blog-2.html"> <img src="assets/img/icons/hands.svg"
-                                            alt="">Business</a></li>
-                            </ul>
-                            <h3><a href="single.html">What Is An Entrepreneurial Consultant? (Examples & Stories).</a>
-                            </h3>
-                            <a href="single-1.html" class="theme-btn-4">Read More <span><i
-                                        class="fa-solid fa-arrow-right"></i></a>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--=====Blog end=======-->
 
     <!--=====Subscribe start=======-->
     <div class="subscribe2 bg7 section-padding">

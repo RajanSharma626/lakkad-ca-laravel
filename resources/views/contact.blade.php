@@ -65,7 +65,8 @@
                         </div>
                         <div class="contact-box-content">
                             <p class="font-f-3">Address</p>
-                            <a class="fs-6" href="#"> 9, 7th Floor, Surat, Gujarat</a>
+                            <a class="fs-6" href="#"> 9, 7th Floor, Reliance Office Plaza in Reliance Mall,
+                                Surat, Gujarat</a>
                         </div>
                     </div>
                 </div>
@@ -96,41 +97,50 @@
                     <div class="main-form">
                         <form action="#">
                             <div class="row">
+                                <!-- Static Inputs -->
                                 <div class="col-lg-6">
-                                    <input type="text" class="form-control" name="fname"
-                                        placeholder="First Name" />
+                                    <input type="text" class="form-control" name="fname" placeholder="First Name"
+                                        required />
                                 </div>
                                 <div class="col-lg-6">
-                                    <input type="text" class="form-control" name="lname" placeholder="Last Name" />
+                                    <input type="text" class="form-control" name="lname" placeholder="Last Name"
+                                        required />
                                 </div>
                                 <div class="col-12">
                                     <input type="email" class="form-control" name="email"
-                                        placeholder="Email Address" />
+                                        placeholder="Email Address" required />
                                 </div>
                                 <div class="col-lg-12">
-                                    <input type="number" class="form-control" name="number" placeholder="Phone no." />
+                                    <input type="number" class="form-control" name="number" placeholder="Phone no."
+                                        required />
                                 </div>
+
+                                <!-- Dynamic Inputs based on purpose -->
                                 <div class="col-lg-12">
                                     <label for="">Purpose<span class="text-danger">*</span></label> <br>
-
-                                    <input type="radio" name="purpose" value="General Inquiry" id="General Inquiry">
-                                    <label for="" class="fs-6">Enquiry</label> &nbsp;&nbsp;
-                                    <input type="radio" name="purpose" value="General Inquiry" id="General Inquiry">
-                                    <label for="" class="fs-6">Feedback</label>&nbsp;&nbsp;
-                                    <input type="radio" name="purpose" value="General Inquiry" id="General Inquiry">
-                                    <label for="" class="fs-6">Job Application</label>&nbsp;&nbsp;
-                                    <input type="radio" name="purpose" value="General Inquiry" id="General Inquiry">
-                                    <label for="" class="fs-6">Suggestions</label>
-
+                                    <input type="radio" name="purpose" value="Enquiry" id="enquiry"
+                                        onchange="toggleInputs(this.value)">
+                                    <label for="enquiry" class="fs-6">Enquiry</label> &nbsp;&nbsp;
+                                    <input type="radio" name="purpose" value="Feedback" id="feedback"
+                                        onchange="toggleInputs(this.value)">
+                                    <label for="feedback" class="fs-6">Feedback</label>&nbsp;&nbsp;
+                                    <input type="radio" name="purpose" value="Job Application" id="jobApplication"
+                                        onchange="toggleInputs(this.value)">
+                                    <label for="jobApplication" class="fs-6">Job Application</label>&nbsp;&nbsp;
+                                    <input type="radio" name="purpose" value="Suggestions" id="suggestions"
+                                        onchange="toggleInputs(this.value)">
+                                    <label for="suggestions" class="fs-6">Suggestions</label>
                                 </div>
+
+                                <!-- Placeholder for dynamic inputs -->
+                                <div class="col-12 row" id="dynamicInputs"></div>
+
                                 <div class="col-12">
-                                    <textarea name="message" class="form-control" id="" cols="30" rows="5"
+                                    <textarea name="message" class="form-control" cols="30" rows="5"
                                         placeholder="Tell Us About Your Projects"></textarea>
                                 </div>
                                 <div class="col-12">
-                                    <button type="submit" class="full-btn theme-btn-2">
-                                        Submit
-                                    </button>
+                                    <button type="submit" class="full-btn theme-btn-2">Submit</button>
                                 </div>
                             </div>
                         </form>
@@ -176,6 +186,48 @@
     <x-footer />
     <!--=====Footer end=======-->
     <x-foot />
+
+    <script>
+        function toggleInputs(value) {
+            const dynamicInputs = document.getElementById('dynamicInputs');
+            dynamicInputs.innerHTML = ''; // Clear previous inputs
+
+            if (value === 'Enquiry') {
+                dynamicInputs.innerHTML = `
+                    <div class="col-12">
+                        <input type="text" class="form-control" name="investment" placeholder="Investment in INR" required />
+                    </div>
+                    <div class="col-12">
+                        <input type="text" class="form-control" name="city" placeholder="City" required />
+                    </div>
+                `;
+            } else if (value === 'Feedback') {
+                dynamicInputs.innerHTML = `
+                    <div class="col-12">
+                        <input type="text" class="form-control" name="firm_name" placeholder="Firm Name" required />
+                    </div>
+                    <div class="col-6">
+                        <input type="text" class="form-control" name="crm_first_name" placeholder="CRM First Name" required />
+                    </div>
+                    <div class="col-6">
+                        <input type="text" class="form-control" name="crm_last_name" placeholder="CRM Last Name" required />
+                    </div>
+                    <div class="col-12">
+                        <label for="rating" class="fs-5">CRM Rating:</label>
+                        <input type="number" class="form-control" name="crm_rating" placeholder="Rating (1-5)" min="1" max="5" required />
+                    </div>
+                `;
+            } else if (value === 'Job Application') {
+                dynamicInputs.innerHTML = `
+                    <div class="col-12">
+                        <label for="resume" class="fs-5">Upload Resume:</label>
+                        <input type="file" class="form-control" name="resume" accept=".pdf" required />
+                    </div>
+                `;
+            }
+            // Suggestions selected, dynamic inputs are cleared (default behavior)
+        }
+    </script>
 
 </body>
 
