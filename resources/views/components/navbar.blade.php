@@ -20,11 +20,11 @@
                                         <ul class="theme-dropdown">
                                             <li><a href="/project-finance">Project-Finance</a>
                                             </li>
-                                            <li><a href="#">Government Benefits & Subsidy
+                                            <li><a href="/government-benefits-&-subsidy">Government Benefits & Subsidy
                                                 </a></li>
                                         </ul>
                                     </li>
-                                    <li class="dropdown-parrent"><a href="#">State-government-policy </a>
+                                    <li class="dropdown-parrent"><a href="/state-government-policy">State-government-policy </a>
                                     </li>
                                     <li><a href="/faq">FAQs</a></li>
 

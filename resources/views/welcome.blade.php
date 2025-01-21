@@ -2,7 +2,8 @@
 <html lang="en">
 
 <head>
-    <x-head title="Home | Lakkad Consultancy" />
+    <x-head />
+    <title>Home | Lakkad Consultancy</title>
 </head>
 
 <body>
@@ -17,44 +18,130 @@
 
     <!--=====Welcome start=======-->
     <div class="welcome-area welcome-2 bg5 position-relative" id="home">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <div class="title title2 ">
-                        <!-- <small data-aos="fade-right" data-aos-duration="600" class="heading-top2"><img
-                src="assets/img/icons/money.png" alt="">Award-Winnng Tax Consultant
-              in Texas</small> -->
-                        <h1 data-aos="fade-right" data-aos-duration="800">Welcome to Lakkad Consultancy</h1>
-                        <p data-aos="fade-right" data-aos-duration="1000">Unlock Government Schemes, Fuel Your
-                            Business </p>
-                        <p data-aos="fade-right" data-aos-duration="1000">Your Trusted Partner in Project Finance</p>
-                        <div class="space30"></div>
-                        <div class="btn-group" data-aos="fade-right" data-aos-duration="1200">
-                            <a class="theme-btn-2" href="about-1.html">Get An Estimated Quote <span><i
-                                        class="fa-solid fa-arrow-right"></i></span></a>
-                            <a class="theme-btn-3" href="contact-1.html">Schdule A Call <span><i
-                                        class="fa-solid fa-arrow-right"></i></span></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 d-none d-lg-block">
-                    <div class="hero-img-elements" data-aos="zoom-out" data-aos-duration="800">
-                        <div class="hero-main-img position-relative top-right-polygon-1">
-                            <img class="border-radius" src="assets/img/bg/main2.jpg" alt="">
-                            <div class="corner-shape2 position-absolute">
-                                <img src="assets/img/shapes/tax-shape1.png" alt="">
+        <div class="row align-items-center">
+            <div class="col-12">
+                <!-- Slider Revolution Start -->
+                <div id="rev_slider_1" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.4.1">
+                    <ul>
+                        <!-- Slide 1 -->
+                        <li data-transition="fade">
+                            <img src="{{ asset('assets/img/image/home-1.jpg') }}" alt="" class="rev-slidebg">
+                            <!-- Blackdrop Overlay for text visibility -->
+                            <div class="overlay"></div>
+
+                            <!-- Text Content -->
+                            <div class="tp-caption tp-resizeme" data-x="center" data-hoffset="0" data-y="center"
+                                data-voffset="-50" data-fontsize="60" data-lineheight="70" data-width="none"
+                                data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;"
+                                data-transform_in="x:[-300%];opacity:0;s:500;e:Power3.easeInOut;"
+                                data-transform_out="x:[300%];opacity:0;s:500;e:Power3.easeInOut;" data-start="1000"
+                                data-responsive_offset="on">
+                                <div class="title title2 ">
+                                    <h1 class="text-white banner-heading d-md-block d-none">Welcome to Lakkad <br>
+                                        Consultancy</h1>
+                                    <h1 class="text-white banner-heading d-md-none d-block">Welcome to Lakkad
+                                        Consultancy</h1>
+
+                                    <div class="space20"></div>
+                                    <div class="btn-group" data-aos="fade-right" data-aos-duration="1200">
+
+                                        <a class="theme-btn-3" href="contact-us">Get a Quote <span><svg
+                                                    class="svg-inline--fa fa-arrow-right" aria-hidden="true"
+                                                    focusable="false" data-prefix="fas" data-icon="arrow-right"
+                                                    role="img" xmlns="http://www.w3.org/2000/svg"
+                                                    viewBox="0 0 448 512" data-fa-i2svg="">
+                                                    <path fill="currentColor"
+                                                        d="M438.6 278.6l-160 160C272.4 444.9 264.2 448 256 448s-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L338.8 288H32C14.33 288 .0016 273.7 .0016 256S14.33 224 32 224h306.8l-105.4-105.4c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160C451.1 245.9 451.1 266.1 438.6 278.6z">
+                                                    </path>
+                                                </svg><!-- <i class="fa-solid fa-arrow-right"></i> Font Awesome fontawesome.com --></span></a>
+                                    </div>
+
+                                </div>
                             </div>
-                            <div class="corner-right-bottom-shape2 position-absolute">
-                                <img src="assets/img/shapes/shape-right-bottom2.png" alt="">
+
+                        </li>
+                        <li data-transition="fade">
+                            <img src="{{ asset('assets/img/image/home-2.jpg') }}" alt="" class="rev-slidebg">
+                            <!-- Blackdrop Overlay for text visibility -->
+                            <div class="overlay"></div>
+
+                            <!-- Text Content -->
+                            <div class="tp-caption tp-resizeme" data-x="center" data-hoffset="0" data-y="center"
+                                data-voffset="-50" data-fontsize="60" data-lineheight="70" data-width="none"
+                                data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;"
+                                data-transform_in="x:[-300%];opacity:0;s:500;e:Power3.easeInOut;"
+                                data-transform_out="x:[300%];opacity:0;s:500;e:Power3.easeInOut;" data-start="1000"
+                                data-responsive_offset="on">
+                                <div class="title title2 ">
+                                    <h1 class="text-white banner-heading d-md-block d-none">Unlock Government Schemes,
+                                        <br> Fuel Your Business</h1>
+                                    <h1 class="text-white banner-heading d-md-none d-block">Unlock Government Schemes,
+                                        Fuel Your Business</h1>
+
+                                    <div class="space20"></div>
+                                    <div class="btn-group" data-aos="fade-right" data-aos-duration="1200">
+
+                                        <a class="theme-btn-3" href="contact-us">Get a Quote <span><svg
+                                                    class="svg-inline--fa fa-arrow-right" aria-hidden="true"
+                                                    focusable="false" data-prefix="fas" data-icon="arrow-right"
+                                                    role="img" xmlns="http://www.w3.org/2000/svg"
+                                                    viewBox="0 0 448 512" data-fa-i2svg="">
+                                                    <path fill="currentColor"
+                                                        d="M438.6 278.6l-160 160C272.4 444.9 264.2 448 256 448s-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L338.8 288H32C14.33 288 .0016 273.7 .0016 256S14.33 224 32 224h306.8l-105.4-105.4c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160C451.1 245.9 451.1 266.1 438.6 278.6z">
+                                                    </path>
+                                                </svg><!-- <i class="fa-solid fa-arrow-right"></i> Font Awesome fontawesome.com --></span></a>
+                                    </div>
+
+                                </div>
                             </div>
-                        </div>
-                    </div>
+
+                        </li>
+
+                       
+
+                        <!-- Slide 3 -->
+                        <li data-transition="fade">
+                            <img src="{{ asset('assets/img/image/home-3.jpg') }}" alt="" class="rev-slidebg">
+                            <!-- Blackdrop Overlay for text visibility -->
+                            <div class="overlay"></div>
+
+                            <!-- Text Content -->
+                            <div class="tp-caption tp-resizeme" data-x="center" data-hoffset="0" data-y="center"
+                                data-voffset="-50" data-fontsize="60" data-lineheight="70" data-width="none"
+                                data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;"
+                                data-transform_in="x:[-300%];opacity:0;s:500;e:Power3.easeInOut;"
+                                data-transform_out="x:[300%];opacity:0;s:500;e:Power3.easeInOut;" data-start="1000"
+                                data-responsive_offset="on">
+                                <div class="title title2 ">
+                                    <h1 class="text-white banner-heading d-md-block d-none">Your Trusted Partner in
+                                        <br> Project Finance</h1>
+                                    <h1 class="text-white banner-heading d-md-none d-block">Your Trusted Partner in
+                                        Project Finance</h1>
+                                    <div class="space20"></div>
+                                    <div class="btn-group" data-aos="fade-right" data-aos-duration="1200">
+
+                                        <a class="theme-btn-3" href="contact-us">Get a Quote <span><svg
+                                                    class="svg-inline--fa fa-arrow-right" aria-hidden="true"
+                                                    focusable="false" data-prefix="fas" data-icon="arrow-right"
+                                                    role="img" xmlns="http://www.w3.org/2000/svg"
+                                                    viewBox="0 0 448 512" data-fa-i2svg="">
+                                                    <path fill="currentColor"
+                                                        d="M438.6 278.6l-160 160C272.4 444.9 264.2 448 256 448s-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L338.8 288H32C14.33 288 .0016 273.7 .0016 256S14.33 224 32 224h306.8l-105.4-105.4c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160C451.1 245.9 451.1 266.1 438.6 278.6z">
+                                                    </path>
+                                                </svg><!-- <i class="fa-solid fa-arrow-right"></i> Font Awesome fontawesome.com --></span></a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
+                <!-- Slider Revolution End -->
             </div>
         </div>
-        <div class="down-arrow2" data-aos="fade-down" data-aos-duration="400">
+        {{-- <div class="down-arrow2" data-aos="fade-down" data-aos-duration="400">
             <a href="#about"><img src="assets/img/icons/down-arrow-black.svg" alt=""></a>
-        </div>
+        </div> --}}
     </div>
     <!--=====Welcome end=======-->
 
@@ -129,7 +216,7 @@
                 <div class="col-lg-6">
                     <div class="about-bg-21 mr50" data-aos="zoom-out" data-aos-duration="800">
                         <div class="about-bg-main-img position-relative top-left-polygon-1">
-                            <img src="assets/img/about/about21.png" alt="">
+                            <img src="assets/img/about/about-us.jpg" class="img-fluid rounded" alt="">
                             <div class="corner-right-bottom-shape2 position-absolute">
                                 <img src="assets/img/shapes/shape-right-bottom2.png" alt="">
                             </div>
@@ -191,7 +278,8 @@
                             <img src="assets/img/case-study/sgcci.png" class="img-fluid" alt="">
                         </div>
                         <div class="col-md-4 text-center mb-5">
-                            <img src="assets/img/case-study/the_Confederation_of_Indian_Industry.png" class="img-fluid" alt="">
+                            <img src="assets/img/case-study/the_Confederation_of_Indian_Industry.png"
+                                class="img-fluid" alt="">
                         </div>
                     </div>
                 </div>
@@ -306,7 +394,7 @@
                         <small data-aos="fade-right" data-aos-duration="600" class="heading-top"><img
                                 src="assets/img/icons/hands.svg" alt="">Our Services</small>
                         <h2 data-aos="fade-right" data-aos-duration="800">What We Bring to You </h2>
-                        <p data-aos="fade-right" data-aos-duration="1000">With over 21 years of rich experience,
+                        <p data-aos="fade-right" data-aos-duration="1000">With over 10 years of rich experience,
                             <b>Lakkad
                                 Consultancy</b> has been a trusted partner in <b>Project Financing</b> and <b>Government
                                 Benefits
@@ -625,6 +713,20 @@
     <!--=====Up arrow end=======-->
 
     <x-foot />
+
+    <script>
+        $("#rev_slider_1").show().revolution({
+            sliderType: "standard",
+            sliderLayout: "fullscreen",
+            delay: 5000,
+            navigation: {
+                arrows: {
+                    enable: true,
+                    style: "", // Keep empty for default to use custom styles
+                },
+            },
+        });
+    </script>
 
 </body>
 

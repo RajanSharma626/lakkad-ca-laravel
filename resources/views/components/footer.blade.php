@@ -6,7 +6,7 @@
                     <div class="single-footer mr50">
                         <a href="index.html" class="footer-logo"> <img src="assets/img/logo/logo-removebg.png" alt=""></a>
                         <div class="space20"></div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, quaerat?</p>
+                        <p>Empowering your financial journey with expert guidance and trust.</p>
                     </div>
                 </div>
                 <div class="col-lg col-md-6">
@@ -14,9 +14,11 @@
                         <h3>Learn</h3>
                         <div class="footer-menu">
                             <ul>
-                                <li><a href="shop-2.html">Home</a></li>
-                                <li><a href="contact-1.html">Schedule a demo</a></li>
-                                <li><a href="blog-1.html">Our Blog</a></li>
+                                <li><a href="/home">Home</a></li>
+                                <li><a href="/contact-us">Contact Us</a></li>
+                                <li><a href="/project-finance">Project Finance</a></li>
+                                <li><a href="/government-benefits-&-subsidy">Government Benifits & Subsidy</a></li>
+                                <li><a href="/faq">FAQs</a></li>
                             </ul>
                         </div>
                     </div>
@@ -26,9 +28,10 @@
                         <h3>Our Company</h3>
                         <div class="footer-menu">
                             <ul>
-                                <li><a href="about-1.html">About us</a></li>
-                                <li><a href="faq-1.html">State-government-policy</a></li>
-                                <li><a href="contact-1.html">Help Centre</a></li>
+                                <li><a href="/about">About us</a></li>
+                                <li><a href="/state-government-policy">State-government-policy</a></li>
+                                <li><a href="/privacy-policy">Privacy Policy</a></li>
+                                <li><a href="/terms-and-conditions">Terms & Condition</a></li>
                             </ul>
                         </div>
                     </div>

@@ -42,7 +42,7 @@
                                 We Are Lakkad Consultancy
                             </h2>
                             <p class="fs-6 my-1">
-                                With over <b>21 years of rich experience, Lakkad Consultancy</b> is a trusted PAN-India
+                                With over <b>10 years of rich experience, Lakkad Consultancy</b> is a trusted PAN-India
                                 organization specializing in <b>Government Benefits (Subsidies)</b> and <b>Project
                                     Finance</b>. Our
                                 team is dedicated to helping businesses access government schemes, including Interest
@@ -81,7 +81,7 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="about-bg-main-img position-relative ml50">
-                        <img src="assets/img/about/about23.png" alt="" />
+                        <img src="assets/img/about/about-us-2.jpg" class="img-fluid rounded" alt="" />
                         <div class="corner-right-bottom-shape2 position-absolute">
                             <img src="assets/img/shapes/shape-right-bottom2.png" alt="" />
                         </div>
@@ -118,7 +118,7 @@
                             <p class="fs-6">
                                 With our head office in <b>Surat (Gujarat)</b> and operational branches in <b>Ahmedabad,
                                     Vijayawada, Tirupur, Panchkula, and Delhi</b>, we are able to support businesses
-                                across the nation. To date, over <b>35,000 clients</b> in <b>90+ cities</b> have
+                                across the nation. To date, over <b>1800 clients</b> in <b>Surat Only</b> have
                                 successfully
                                 benefited from our services, ensuring optimized financial solutions for a diverse range
                                 of industries.
@@ -146,7 +146,8 @@
                             <img src="assets/img/case-study/sgcci.png" class="img-fluid" alt="">
                         </div>
                         <div class="col-md-4 text-center mb-5">
-                            <img src="assets/img/case-study/the_Confederation_of_Indian_Industry.png" class="img-fluid" alt="">
+                            <img src="assets/img/case-study/the_Confederation_of_Indian_Industry.png" class="img-fluid"
+                                alt="">
                         </div>
                     </div>
                 </div>
@@ -225,7 +226,7 @@
                                 alt="" />Our Success in
                             Numbers</small>
                         <h2>Achievements & Statistics
-                            Our 21 Years of Excellence
+                            Our 10 Years of Excellence
                         </h2>
                     </div>
                 </div>
@@ -407,36 +408,35 @@
                     <div class="single-team">
                         <div class="team-sides team-font-side">
                             <div class="team-img">
-                                <img src="assets/img/team/team9.jpg" alt="" />
+                                <img src="assets/img/team/team.jpg" alt="" />
                             </div>
                             <div class="team-content bg-18">
-                                <a class="weight-700" href="#">Kathryn Murphy</a>
-                                <p>Senior Consultant</p>
+                                <a class="weight-700" href="#">Prshant J Lakkad
+                                </a>
+                                <p>Founder & CEO</p>
                             </div>
                         </div>
 
-                        <div class="team-sides team-back-side">
+                        <div class="team-sides team-back-side bg-18">
                             <div class="team-content bg-18">
-                                <a class="weight-700" href="#">Kathryn Murphy</a>
-                                <p>Senior Consultant</p>
+                                <a class="weight-700" href="#">Prshant J Lakkad </a>
+                                <p>Founder & CEO</p>
                                 <div class="space10"></div>
                                 <div class="team-socials">
                                     <ul>
                                         <li>
-                                            <a data-bs-toggle="tooltip" title="Linked in" href="#"><i
+                                            <a data-bs-toggle="tooltip" title="Linked in"
+                                                href="https://www.linkedin.com/in/lakkadco/" target="_blank"><i
                                                     class="fa-brands fa-linkedin-in"></i></a>
                                         </li>
                                         <li>
-                                            <a data-bs-toggle="tooltip" title="Facebook" href="#"><i
+                                            <a data-bs-toggle="tooltip" title="Facebook"
+                                                href="https://www.facebook.com/p05151" target="_blank"><i
                                                     class="fa-brands fa-facebook-f"></i></a>
                                         </li>
                                         <li>
-                                            <a data-bs-toggle="tooltip" title="Instagram" href="#"><i
-                                                    class="fa-brands fa-instagram"></i></a>
-                                        </li>
-                                        <li>
-                                            <a data-bs-toggle="tooltip" title="TikTok" href="#"><i
-                                                    class="fa-brands fa-tiktok"></i></a>
+                                            <a data-bs-toggle="tooltip" title="Whastapp" href="https://wa.me/919979206951" target="_blank"><i
+                                                    class="fa-brands fa-whatsapp"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -445,130 +445,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6">
-                    <div class="single-team">
-                        <div class="team-sides team-font-side">
-                            <div class="team-img">
-                                <img src="assets/img/team/team10.jpg" alt="" />
-                            </div>
-                            <div class="team-content bg-18">
-                                <a class="weight-700" href="#">Aston Turner</a>
-                                <p>Group manager</p>
-                            </div>
-                        </div>
-
-                        <div class="team-sides team-back-side">
-                            <div class="team-content bg-18">
-                                <a class="weight-700" href="#">Alyssa Healy</a>
-                                <p>Group manager</p>
-                                <div class="space10"></div>
-                                <div class="team-socials">
-                                    <ul>
-                                        <li>
-                                            <a data-bs-toggle="tooltip" title="Linked in" href="#"><i
-                                                    class="fa-brands fa-linkedin-in"></i></a>
-                                        </li>
-                                        <li>
-                                            <a data-bs-toggle="tooltip" title="Facebook" href="#"><i
-                                                    class="fa-brands fa-facebook-f"></i></a>
-                                        </li>
-                                        <li>
-                                            <a data-bs-toggle="tooltip" title="Instagram" href="#"><i
-                                                    class="fa-brands fa-instagram"></i></a>
-                                        </li>
-                                        <li>
-                                            <a data-bs-toggle="tooltip" title="TikTok" href="#"><i
-                                                    class="fa-brands fa-tiktok"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="single-team">
-                        <div class="team-sides team-font-side">
-                            <div class="team-img">
-                                <img src="assets/img/team/team11.jpg" alt="" />
-                            </div>
-                            <div class="team-content bg-18">
-                                <a class="weight-700" href="#">Jhye Richardson</a>
-                                <p>Associate Consultant</p>
-                            </div>
-                        </div>
-
-                        <div class="team-sides team-back-side">
-                            <div class="team-content bg-18">
-                                <a class="weight-700" href="#">Jhye Richardson</a>
-                                <p>Associate Consultant</p>
-                                <div class="space10"></div>
-                                <div class="team-socials">
-                                    <ul>
-                                        <li>
-                                            <a data-bs-toggle="tooltip" title="Linked in" href="#"><i
-                                                    class="fa-brands fa-linkedin-in"></i></a>
-                                        </li>
-                                        <li>
-                                            <a data-bs-toggle="tooltip" title="Facebook" href="#"><i
-                                                    class="fa-brands fa-facebook-f"></i></a>
-                                        </li>
-                                        <li>
-                                            <a data-bs-toggle="tooltip" title="Instagram" href="#"><i
-                                                    class="fa-brands fa-instagram"></i></a>
-                                        </li>
-                                        <li>
-                                            <a data-bs-toggle="tooltip" title="TikTok" href="#"><i
-                                                    class="fa-brands fa-tiktok"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="single-team">
-                        <div class="team-sides team-font-side">
-                            <div class="team-img">
-                                <img src="assets/img/team/team12.jpg" alt="" />
-                            </div>
-                            <div class="team-content bg-18">
-                                <a class="weight-700" href="#">Peter Handscomb</a>
-                                <p>Consultant & Analytics</p>
-                            </div>
-                        </div>
-
-                        <div class="team-sides team-back-side">
-                            <div class="team-content bg-18">
-                                <a class="weight-700" href="#">Peter Handscomb</a>
-                                <p>Consultant & Analytics</p>
-                                <div class="space10"></div>
-                                <div class="team-socials">
-                                    <ul>
-                                        <li>
-                                            <a data-bs-toggle="tooltip" title="Linked in" href="#"><i
-                                                    class="fa-brands fa-linkedin-in"></i></a>
-                                        </li>
-                                        <li>
-                                            <a data-bs-toggle="tooltip" title="Facebook" href="#"><i
-                                                    class="fa-brands fa-facebook-f"></i></a>
-                                        </li>
-                                        <li>
-                                            <a data-bs-toggle="tooltip" title="Instagram" href="#"><i
-                                                    class="fa-brands fa-instagram"></i></a>
-                                        </li>
-                                        <li>
-                                            <a data-bs-toggle="tooltip" title="TikTok" href="#"><i
-                                                    class="fa-brands fa-tiktok"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              
             </div>
         </div>
     </div>

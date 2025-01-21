@@ -42,6 +42,16 @@ Route::get('/testimonials', function () {
     return view('testimonial');
 });
 
+//=================== Government Benefits & Subsidy ===================
+Route::get('/government-benefits-&-subsidy', function () {
+    return view('government-benefits-&-subsidy');
+});
+
+//=================== Status Government Policy ===================
+Route::get('/state-government-policy', function () {
+    return view('state-government-policy');
+});
+
 
 // ============ Admin Routes ============
 Route::withoutMiddleware([AuthMiddleware::class])->group(function () {
