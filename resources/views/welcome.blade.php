@@ -432,7 +432,7 @@
                             <p class="font-f-3">At Lakkad Consultancy, we assist businesses in accessing both Central
                                 and State Government Benefit schemes...
                             </p>
-                            <a href="#" class="theme-btn-16">Learn More </a>
+                            <a href="/government-benefits-&-subsidy" class="theme-btn-16">Learn More </a>
                         </div>
                     </div>
                 </div>
