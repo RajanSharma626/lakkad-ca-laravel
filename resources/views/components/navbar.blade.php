@@ -1,4 +1,4 @@
-<header id="header" class="header header-2 header-absolute d-none d-lg-block">
+<header id="header" class="header header-2 header-absolute bg-white d-none d-lg-block">
     <div class="container">
         <div class="row">
             <div class="col-12">

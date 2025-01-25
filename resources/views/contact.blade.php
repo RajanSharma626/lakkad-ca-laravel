@@ -95,49 +95,72 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="main-form">
-                        <form action="#">
+                        <form action="{{ route('contact.store') }}" method="POST">
+                            @csrf
                             <div class="row">
                                 <!-- Static Inputs -->
-                                <div class="col-lg-6">
+                                <div class="col-lg-6 mb-3 mb-3">
                                     <input type="text" class="form-control" name="fname" placeholder="First Name"
-                                        required />
+                                        value="{{ old('fname') }}" required />
+                                    @error('fname')
+                                        <div class="text-danger fs-6">{{ $message }}</div>
+                                    @enderror
                                 </div>
-                                <div class="col-lg-6">
+                                <div class="col-lg-6 mb-3 mb-3">
                                     <input type="text" class="form-control" name="lname" placeholder="Last Name"
-                                        required />
+                                        value="{{ old('lname') }}" required />
+                                    @error('lname')
+                                        <div class="text-danger fs-6">{{ $message }}</div>
+                                    @enderror
                                 </div>
-                                <div class="col-12">
+                                <div class="col-12 mb-3 mb-3">
                                     <input type="email" class="form-control" name="email"
-                                        placeholder="Email Address" required />
+                                        placeholder="Email Address" value="{{ old('email') }}" required />
+                                    @error('email')
+                                        <div class="text-danger fs-6">{{ $message }}</div>
+                                    @enderror
                                 </div>
-                                <div class="col-lg-12">
+                                <div class="col-lg-12 mb-3 mb-3">
                                     <input type="number" class="form-control" name="number" placeholder="Phone no."
-                                        required />
+                                        value="{{ old('number') }}" required />
+                                    @error('number')
+                                        <div class="text-danger fs-6">{{ $message }}</div>
+                                    @enderror
                                 </div>
 
                                 <!-- Dynamic Inputs based on purpose -->
-                                <div class="col-lg-12">
+                                <div class="col-lg-12 mb-3 mb-3">
                                     <label for="">Purpose<span class="text-danger">*</span></label> <br>
                                     <input type="radio" name="purpose" value="Enquiry" id="enquiry"
-                                        onchange="toggleInputs(this.value)">
+                                        onchange="toggleInputs(this.value)"
+                                        {{ old('purpose') == 'Enquiry' ? 'checked' : '' }}>
                                     <label for="enquiry" class="fs-6">Enquiry</label> &nbsp;&nbsp;
                                     <input type="radio" name="purpose" value="Feedback" id="feedback"
-                                        onchange="toggleInputs(this.value)">
+                                        onchange="toggleInputs(this.value)"
+                                        {{ old('purpose') == 'Feedback' ? 'checked' : '' }}>
                                     <label for="feedback" class="fs-6">Feedback</label>&nbsp;&nbsp;
                                     <input type="radio" name="purpose" value="Job Application" id="jobApplication"
-                                        onchange="toggleInputs(this.value)">
+                                        onchange="toggleInputs(this.value)"
+                                        {{ old('purpose') == 'Job Application' ? 'checked' : '' }}>
                                     <label for="jobApplication" class="fs-6">Job Application</label>&nbsp;&nbsp;
                                     <input type="radio" name="purpose" value="Suggestions" id="suggestions"
-                                        onchange="toggleInputs(this.value)">
+                                        onchange="toggleInputs(this.value)"
+                                        {{ old('purpose') == 'Suggestions' ? 'checked' : '' }}>
                                     <label for="suggestions" class="fs-6">Suggestions</label>
+                                    @error('purpose')
+                                        <div class="text-danger fs-6">{{ $message }}</div>
+                                    @enderror
                                 </div>
 
                                 <!-- Placeholder for dynamic inputs -->
-                                <div class="col-12 row" id="dynamicInputs"></div>
+                                <div class="col-12 row mb-3" id="dynamicInputs"></div>
 
-                                <div class="col-12">
+                                <div class="col-12 mb-3">
                                     <textarea name="message" class="form-control" cols="30" rows="5"
-                                        placeholder="Tell Us About Your Projects"></textarea>
+                                        placeholder="Tell Us About Your Projects">{{ old('message') }}</textarea>
+                                    @error('message')
+                                        <div class="text-danger fs-6">{{ $message }}</div>
+                                    @enderror
                                 </div>
                                 <div class="col-12">
                                     <button type="submit" class="full-btn theme-btn-2">Submit</button>
@@ -194,41 +217,79 @@
 
             if (value === 'Enquiry') {
                 dynamicInputs.innerHTML = `
-                    <div class="col-12">
-                        <input type="text" class="form-control" name="investment" placeholder="Investment in INR" required />
-                    </div>
-                    <div class="col-12">
-                        <input type="text" class="form-control" name="city" placeholder="City" required />
-                    </div>
-                `;
+                <div class="col-12 mb-3">
+                <input type="text" class="form-control" name="investment" placeholder="Investment in INR" value="{{ old('investment') }}" required />
+                @error('investment')
+                    <div class="text-danger fs-6">{{ $message }}</div>
+                @enderror
+                </div>
+                <div class="col-12">
+                <input type="text" class="form-control" name="city" placeholder="City" value="{{ old('city') }}" required />
+                @error('city')
+                    <div class="text-danger fs-6">{{ $message }}</div>
+                @enderror
+                </div>
+            `;
             } else if (value === 'Feedback') {
                 dynamicInputs.innerHTML = `
-                    <div class="col-12">
-                        <input type="text" class="form-control" name="firm_name" placeholder="Firm Name" required />
-                    </div>
-                    <div class="col-6">
-                        <input type="text" class="form-control" name="crm_first_name" placeholder="CRM First Name" required />
-                    </div>
-                    <div class="col-6">
-                        <input type="text" class="form-control" name="crm_last_name" placeholder="CRM Last Name" required />
-                    </div>
-                    <div class="col-12">
-                        <label for="rating" class="fs-5">CRM Rating:</label>
-                        <input type="number" class="form-control" name="crm_rating" placeholder="Rating (1-5)" min="1" max="5" required />
-                    </div>
-                `;
+                <div class="col-12 mb-3">
+                <input type="text" class="form-control" name="firm_name" placeholder="Firm Name" value="{{ old('firm_name') }}" required />
+                @error('firm_name')
+                    <div class="text-danger fs-6">{{ $message }}</div>
+                @enderror
+                </div>
+                <div class="col-6 mb-3">
+                <input type="text" class="form-control" name="crm_first_name" placeholder="CRM First Name" value="{{ old('crm_first_name') }}" required />
+                @error('crm_first_name')
+                    <div class="text-danger fs-6">{{ $message }}</div>
+                @enderror
+                </div>
+                <div class="col-6 mb-3">
+                <input type="text" class="form-control" name="crm_last_name" placeholder="CRM Last Name" value="{{ old('crm_last_name') }}" required />
+                @error('crm_last_name')
+                    <div class="text-danger fs-6">{{ $message }}</div>
+                @enderror
+                </div>
+                <div class="col-12 mb-3">
+                <label for="rating" class="fs-5">CRM Rating:</label>
+                <input type="number" class="form-control" name="crm_rating" placeholder="Rating (1-5)" value="{{ old('crm_rating') }}" min="1" max="5" required />
+                @error('crm_rating')
+                    <div class="text-danger fs-6">{{ $message }}</div>
+                @enderror
+                </div>
+            `;
             } else if (value === 'Job Application') {
                 dynamicInputs.innerHTML = `
-                    <div class="col-12">
-                        <label for="resume" class="fs-5">Upload Resume:</label>
-                        <input type="file" class="form-control" name="resume" accept=".pdf" required />
-                    </div>
-                `;
+                <div class="col-12 mb-3">
+                <label for="resume" class="fs-5">Upload Resume:</label>
+                <input type="file" class="form-control" name="resume" accept=".pdf" required />
+                @error('resume')
+                    <div class="text-danger fs-6">{{ $message }}</div>
+                @enderror
+                </div>
+            `;
             }
             // Suggestions selected, dynamic inputs are cleared (default behavior)
         }
+
+        // Trigger the function on page load if there's an old value
+        document.addEventListener('DOMContentLoaded', function() {
+            const oldPurpose = "{{ old('purpose') }}";
+            if (oldPurpose) {
+                toggleInputs(oldPurpose);
+            }
+        });
     </script>
 
+    @if (session('success'))
+        <script>
+            Swal.fire({
+                icon: 'success',
+                title: 'Success',
+                text: '{{ session('success') }}',
+            });
+        </script>
+    @endif
 </body>
 
 

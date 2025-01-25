@@ -17,132 +17,118 @@
     <!--=====Mobile header end=======-->
 
     <!--=====Welcome start=======-->
-    <div class="welcome-area welcome-2 bg5 position-relative" id="home">
-        <div class="row align-items-center">
-            <div class="col-12">
-                <!-- Slider Revolution Start -->
-                <div id="rev_slider_1" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.4.1">
-                    <ul>
-                        <!-- Slide 1 -->
-                        <li data-transition="fade">
-                            <img src="{{ asset('assets/img/image/home-1.jpg') }}" alt="" class="rev-slidebg">
-                            <!-- Blackdrop Overlay for text visibility -->
-                            <div class="overlay"></div>
-
-                            <!-- Text Content -->
-                            <div class="tp-caption tp-resizeme" data-x="center" data-hoffset="0" data-y="center"
-                                data-voffset="-50" data-fontsize="60" data-lineheight="70" data-width="none"
-                                data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;"
-                                data-transform_in="x:[-300%];opacity:0;s:500;e:Power3.easeInOut;"
-                                data-transform_out="x:[300%];opacity:0;s:500;e:Power3.easeInOut;" data-start="1000"
-                                data-responsive_offset="on">
-                                <div class="title title2 ">
-                                    <h1 class="text-white banner-heading d-md-block d-none">Welcome to Lakkad <br>
-                                        Consultancy</h1>
-                                    <h1 class="text-white banner-heading d-md-none d-block">Welcome to Lakkad
-                                        Consultancy</h1>
-
-                                    <div class="space20"></div>
-                                    <div class="btn-group" data-aos="fade-right" data-aos-duration="1200">
-
-                                        <a class="theme-btn-3" href="contact-us">Get a Quote <span><svg
-                                                    class="svg-inline--fa fa-arrow-right" aria-hidden="true"
-                                                    focusable="false" data-prefix="fas" data-icon="arrow-right"
-                                                    role="img" xmlns="http://www.w3.org/2000/svg"
-                                                    viewBox="0 0 448 512" data-fa-i2svg="">
-                                                    <path fill="currentColor"
-                                                        d="M438.6 278.6l-160 160C272.4 444.9 264.2 448 256 448s-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L338.8 288H32C14.33 288 .0016 273.7 .0016 256S14.33 224 32 224h306.8l-105.4-105.4c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160C451.1 245.9 451.1 266.1 438.6 278.6z">
-                                                    </path>
-                                                </svg><!-- <i class="fa-solid fa-arrow-right"></i> Font Awesome fontawesome.com --></span></a>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                        </li>
-                        <li data-transition="fade">
-                            <img src="{{ asset('assets/img/image/home-2.jpg') }}" alt="" class="rev-slidebg">
-                            <!-- Blackdrop Overlay for text visibility -->
-                            <div class="overlay"></div>
-
-                            <!-- Text Content -->
-                            <div class="tp-caption tp-resizeme" data-x="center" data-hoffset="0" data-y="center"
-                                data-voffset="-50" data-fontsize="60" data-lineheight="70" data-width="none"
-                                data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;"
-                                data-transform_in="x:[-300%];opacity:0;s:500;e:Power3.easeInOut;"
-                                data-transform_out="x:[300%];opacity:0;s:500;e:Power3.easeInOut;" data-start="1000"
-                                data-responsive_offset="on">
-                                <div class="title title2 ">
-                                    <h1 class="text-white banner-heading d-md-block d-none">Unlock Government Schemes,
-                                        <br> Fuel Your Business</h1>
-                                    <h1 class="text-white banner-heading d-md-none d-block">Unlock Government Schemes,
-                                        Fuel Your Business</h1>
-
-                                    <div class="space20"></div>
-                                    <div class="btn-group" data-aos="fade-right" data-aos-duration="1200">
-
-                                        <a class="theme-btn-3" href="contact-us">Get a Quote <span><svg
-                                                    class="svg-inline--fa fa-arrow-right" aria-hidden="true"
-                                                    focusable="false" data-prefix="fas" data-icon="arrow-right"
-                                                    role="img" xmlns="http://www.w3.org/2000/svg"
-                                                    viewBox="0 0 448 512" data-fa-i2svg="">
-                                                    <path fill="currentColor"
-                                                        d="M438.6 278.6l-160 160C272.4 444.9 264.2 448 256 448s-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L338.8 288H32C14.33 288 .0016 273.7 .0016 256S14.33 224 32 224h306.8l-105.4-105.4c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160C451.1 245.9 451.1 266.1 438.6 278.6z">
-                                                    </path>
-                                                </svg><!-- <i class="fa-solid fa-arrow-right"></i> Font Awesome fontawesome.com --></span></a>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                        </li>
-
-                       
-
-                        <!-- Slide 3 -->
-                        <li data-transition="fade">
-                            <img src="{{ asset('assets/img/image/home-3.jpg') }}" alt="" class="rev-slidebg">
-                            <!-- Blackdrop Overlay for text visibility -->
-                            <div class="overlay"></div>
-
-                            <!-- Text Content -->
-                            <div class="tp-caption tp-resizeme" data-x="center" data-hoffset="0" data-y="center"
-                                data-voffset="-50" data-fontsize="60" data-lineheight="70" data-width="none"
-                                data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;"
-                                data-transform_in="x:[-300%];opacity:0;s:500;e:Power3.easeInOut;"
-                                data-transform_out="x:[300%];opacity:0;s:500;e:Power3.easeInOut;" data-start="1000"
-                                data-responsive_offset="on">
-                                <div class="title title2 ">
-                                    <h1 class="text-white banner-heading d-md-block d-none">Your Trusted Partner in
-                                        <br> Project Finance</h1>
-                                    <h1 class="text-white banner-heading d-md-none d-block">Your Trusted Partner in
-                                        Project Finance</h1>
-                                    <div class="space20"></div>
-                                    <div class="btn-group" data-aos="fade-right" data-aos-duration="1200">
-
-                                        <a class="theme-btn-3" href="contact-us">Get a Quote <span><svg
-                                                    class="svg-inline--fa fa-arrow-right" aria-hidden="true"
-                                                    focusable="false" data-prefix="fas" data-icon="arrow-right"
-                                                    role="img" xmlns="http://www.w3.org/2000/svg"
-                                                    viewBox="0 0 448 512" data-fa-i2svg="">
-                                                    <path fill="currentColor"
-                                                        d="M438.6 278.6l-160 160C272.4 444.9 264.2 448 256 448s-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L338.8 288H32C14.33 288 .0016 273.7 .0016 256S14.33 224 32 224h306.8l-105.4-105.4c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160C451.1 245.9 451.1 266.1 438.6 278.6z">
-                                                    </path>
-                                                </svg><!-- <i class="fa-solid fa-arrow-right"></i> Font Awesome fontawesome.com --></span></a>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
+    {{-- <div class="welcome-area welcome-2 bg5 position-relative" id="home"> --}}
+    <div class="row align-items-center pt-5">
+        <div class="col-12">
+            <div id="mainCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <!-- Indicators -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
                 </div>
-                <!-- Slider Revolution End -->
+
+                <!-- Slides -->
+                <div class="carousel-inner">
+                    <!-- Slide 1 -->
+                    <div class="carousel-item active">
+                        <!-- Background Image with Overlay -->
+                        <div class="background-wrapper">
+                            <img src="{{ asset('assets/img/image/home-1.jpg') }}" class="d-block w-100" alt="Slide 1">
+                            <div class="overlay"></div>
+                        </div>
+                        <!-- Content -->
+                        <div class="carousel-caption">
+                            <div class="title title2 ">
+                                <h1 class="text-white">Welcome to Lakkad Consultancy</h1>
+                            </div>
+                            <div class="btn-group" data-aos="fade-right" data-aos-duration="1200">
+
+                                <a class="theme-btn-3" href="contact-us">Get a Quote <span><svg
+                                            class="svg-inline--fa fa-arrow-right" aria-hidden="true" focusable="false"
+                                            data-prefix="fas" data-icon="arrow-right" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+                                            <path fill="currentColor"
+                                                d="M438.6 278.6l-160 160C272.4 444.9 264.2 448 256 448s-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L338.8 288H32C14.33 288 .0016 273.7 .0016 256S14.33 224 32 224h306.8l-105.4-105.4c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160C451.1 245.9 451.1 266.1 438.6 278.6z">
+                                            </path>
+                                        </svg></span></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="carousel-item">
+                        <!-- Background Image with Overlay -->
+                        <div class="background-wrapper">
+                            <img src="{{ asset('assets/img/image/home-2.jpg') }}" class="d-block w-100" alt="Slide 2">
+                            <div class="overlay"></div>
+                        </div>
+                        <!-- Content -->
+                        <div class="carousel-caption">
+                            <div class="title title2 ">
+                            <h1 class="text-white">Unlock Government Schemes, Fuel Your Business</h1>
+                            </div>
+                            <div class="btn-group" data-aos="fade-right" data-aos-duration="1200">
+
+                                <a class="theme-btn-3" href="contact-us">Get a Quote <span><svg
+                                            class="svg-inline--fa fa-arrow-right" aria-hidden="true" focusable="false"
+                                            data-prefix="fas" data-icon="arrow-right" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+                                            <path fill="currentColor"
+                                                d="M438.6 278.6l-160 160C272.4 444.9 264.2 448 256 448s-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L338.8 288H32C14.33 288 .0016 273.7 .0016 256S14.33 224 32 224h306.8l-105.4-105.4c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160C451.1 245.9 451.1 266.1 438.6 278.6z">
+                                            </path>
+                                        </svg></span></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="carousel-item">
+                        <!-- Background Image with Overlay -->
+                        <div class="background-wrapper">
+                            <img src="{{ asset('assets/img/image/home-3.jpg') }}" class="d-block w-100" alt="Slide 3">
+                            <div class="overlay"></div>
+                        </div>
+                        <!-- Content -->
+                        <div class="carousel-caption">
+                            <div class="title title2 ">
+                            <h1 class="text-white">Your Trusted Partner in Project Finance</h1>
+                            </div>
+                            <div class="btn-group" data-aos="fade-right" data-aos-duration="1200">
+
+                                <a class="theme-btn-3" href="contact-us">Get a Quote <span><svg
+                                            class="svg-inline--fa fa-arrow-right" aria-hidden="true" focusable="false"
+                                            data-prefix="fas" data-icon="arrow-right" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+                                            <path fill="currentColor"
+                                                d="M438.6 278.6l-160 160C272.4 444.9 264.2 448 256 448s-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L338.8 288H32C14.33 288 .0016 273.7 .0016 256S14.33 224 32 224h306.8l-105.4-105.4c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160C451.1 245.9 451.1 266.1 438.6 278.6z">
+                                            </path>
+                                        </svg></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
+
+
         </div>
-        {{-- <div class="down-arrow2" data-aos="fade-down" data-aos-duration="400">
-            <a href="#about"><img src="assets/img/icons/down-arrow-black.svg" alt=""></a>
-        </div> --}}
     </div>
+    {{-- </div> --}}
     <!--=====Welcome end=======-->
 
     <!--=====Tax business start=======-->

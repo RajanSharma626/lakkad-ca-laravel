@@ -52,6 +52,9 @@ Route::get('/state-government-policy', function () {
     return view('state-government-policy');
 });
 
+// submit contact form
+Route::post('/contact-us', [ContactController::class, 'store'])->name('contact.store');
+
 
 // ============ Admin Routes ============
 Route::withoutMiddleware([AuthMiddleware::class])->group(function () {

@@ -3,7 +3,12 @@
 
 
 <!--=====Fav icon=======-->
-{{-- <link rel="shortcut icon" href="{{ asset('assets/img/icons/fab2.png') }}" type="image/x-icon"> --}}
+<link rel="icon" type="image/png" href="{{asset('/assets/img/fav/favicon-96x96.png')}}" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="{{asset('/assets/img/fav/favicon.svg')}}" />
+<link rel="shortcut icon" href="{{asset('/assets/img/fav/favicon.ico')}}" />
+<link rel="apple-touch-icon" sizes="180x180" href="{{asset('/assets/img/fav/apple-touch-icon.png')}}" />
+<meta name="apple-mobile-web-app-title" content="Lakkad Consultancy" />
+<link rel="manifest" href="{{asset('/assets/img/fav/site.webmanifest')}}" />
 
 <!--=====CSS=======-->
 <link rel="stylesheet" href="{{ asset('assets/css/plugins/bootstrap.min.css') }}">
@@ -21,6 +26,5 @@
 <!--===== jQuery=======-->
 <script src="assets/js/plugins/jquery-3-6-0.min.js"></script>
 
-<!--===== Rev Slider CDN =======-->
-<script src="https://cdn.jsdelivr.net/npm/revslider@5.4.201-8.6/js/jquery.themepunch.tools.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/revslider@5.4.201-8.6/js/jquery.themepunch.revolution.min.js"></script>
+{{-- sweat alert --}}
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
