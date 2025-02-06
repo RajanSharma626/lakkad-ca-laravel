@@ -502,146 +502,22 @@
                         <div class="owl-stage-outer">
                             <div class="owl-stage"
                                 style="transform: translate3d(-1528px, 0px, 0px); transition: 0.25s; width: 2674px;">
-                                <div class="owl-item cloned" style="width: 352px; margin-right: 30px;">
-                                    <div class="single-testimonial">
-                                        <div class="testimonial-icon">
-                                            <img src="assets/img/icons/quote-1.png" alt="">
-                                        </div>
-                                        <p>“Consultia law firm is wonderful. I have had the chance to work with three of
-                                            the lawyers and they all
-                                            have been wonderful. They will tell you when you need a lawyer and when you
-                                            don't. They actually try to
-                                            save you money. They
-                                            respond very fast to questions and try to help you understand what is going
-                                            on.”</p>
-                                        <div class="author-reviews">
-                                            <div class="author">
-                                                <a href="#">Jason Behrendorff</a>
+                                @foreach ($testimonials as $testimonial)
+                                    <div class="owl-item" style="width: 352px; margin-right: 30px;">
+                                        <div class="single-testimonial">
+                                            <div class="testimonial-icon">
+                                                <img src="assets/img/icons/quote-1.png" alt="">
                                             </div>
-
+                                            <p>{{ $testimonial->testimonial	 }}</p>
+                                            <div class="author-reviews">
+                                                <div class="author">
+                                                    <a href="#">{{ $testimonial->name }}</a>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="owl-item cloned" style="width: 352px; margin-right: 30px;">
-                                    <div class="single-testimonial">
-                                        <div class="testimonial-icon">
-                                            <img src="assets/img/icons/quote-1.png" alt="">
-                                        </div>
-                                        <p>“Consultia law firm is wonderful. I have had the chance to work with three of
-                                            the lawyers and they all
-                                            have been wonderful. They will tell you when you need a lawyer and when you
-                                            don't. They actually try to
-                                            save you money. They
-                                            respond very fast to questions and try to help you understand what is going
-                                            on.”</p>
-                                        <div class="author-reviews">
-                                            <div class="author">
-                                                <a href="#">Jason Behrendorff</a>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item cloned" style="width: 352px; margin-right: 30px;">
-                                    <div class="single-testimonial">
-                                        <div class="testimonial-icon">
-                                            <img src="assets/img/icons/quote-1.png" alt="">
-                                        </div>
-                                        <p>“Consultia law firm is wonderful. I have had the chance to work with three of
-                                            the lawyers and they all
-                                            have been wonderful. They will tell you when you need a lawyer and when you
-                                            don't. They actually try to
-                                            save you money. They
-                                            respond very fast to questions and try to help you understand what is going
-                                            on.”</p>
-                                        <div class="author-reviews">
-                                            <div class="author">
-                                                <a href="#">Jason Behrendorff</a>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item" style="width: 352px; margin-right: 30px;">
-                                    <div class="single-testimonial">
-                                        <div class="testimonial-icon">
-                                            <img src="assets/img/icons/quote-1.png" alt="">
-                                        </div>
-                                        <p>“Consultia law firm is wonderful. I have had the chance to work with three of
-                                            the lawyers and they all
-                                            have been wonderful. They will tell you when you need a lawyer and when you
-                                            don't. They actually try to
-                                            save you money. They
-                                            respond very fast to questions and try to help you understand what is going
-                                            on.”</p>
-                                        <div class="author-reviews">
-                                            <div class="author">
-                                                <a href="#">Jason Behrendorff</a>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item cloned active" style="width: 352px; margin-right: 30px;">
-                                    <div class="single-testimonial">
-                                        <div class="testimonial-icon">
-                                            <img src="assets/img/icons/quote-1.png" alt="">
-                                        </div>
-                                        <p>“Consultia law firm is wonderful. I have had the chance to work with three of
-                                            the lawyers and they all
-                                            have been wonderful. They will tell you when you need a lawyer and when you
-                                            don't. They actually try to
-                                            save you money. They
-                                            respond very fast to questions and try to help you understand what is going
-                                            on.”</p>
-                                        <div class="author-reviews">
-                                            <div class="author">
-                                                <a href="#">Jason Behrendorff</a>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item cloned active" style="width: 352px; margin-right: 30px;">
-                                    <div class="single-testimonial">
-                                        <div class="testimonial-icon">
-                                            <img src="assets/img/icons/quote-1.png" alt="">
-                                        </div>
-                                        <p>“Consultia law firm is wonderful. I have had the chance to work with three of
-                                            the lawyers and they all
-                                            have been wonderful. They will tell you when you need a lawyer and when you
-                                            don't. They actually try to
-                                            save you money. They
-                                            respond very fast to questions and try to help you understand what is going
-                                            on.”</p>
-                                        <div class="author-reviews">
-                                            <div class="author">
-                                                <a href="#">Jason Behrendorff</a>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item cloned active" style="width: 352px; margin-right: 30px;">
-                                    <div class="single-testimonial">
-                                        <div class="testimonial-icon">
-                                            <img src="assets/img/icons/quote-1.png" alt="">
-                                        </div>
-                                        <p>“Consultia law firm is wonderful. I have had the chance to work with three of
-                                            the lawyers and they all
-                                            have been wonderful. They will tell you when you need a lawyer and when you
-                                            don't. They actually try to
-                                            save you money. They
-                                            respond very fast to questions and try to help you understand what is going
-                                            on.”</p>
-                                        <div class="author-reviews">
-                                            <div class="author">
-                                                <a href="#">Jason Behrendorff</a>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
+                                @endforeach
+                              
                             </div>
                         </div>
                         <div class="owl-nav disabled"><button type="button" role="presentation"
