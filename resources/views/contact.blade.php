@@ -65,7 +65,7 @@
                         </div>
                         <div class="contact-box-content">
                             <p class="font-f-3">Address</p>
-                            <a class="fs-6" href="#"> 9, 7th Floor, Reliance Office Plaza in Reliance Mall,
+                            <a class="fs-6" href="#"> 9B, 7th Floor, Reliance Office Plaza in Reliance Mall,
                                 Surat, Gujarat</a>
                         </div>
                     </div>

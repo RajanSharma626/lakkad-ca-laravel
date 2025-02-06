@@ -69,7 +69,7 @@
                         <!-- Content -->
                         <div class="carousel-caption">
                             <div class="title title2 ">
-                            <h1 class="text-white">Unlock Government Schemes, Fuel Your Business</h1>
+                                <h1 class="text-white">Unlock Government Schemes, Fuel Your Business</h1>
                             </div>
                             <div class="btn-group" data-aos="fade-right" data-aos-duration="1200">
 
@@ -95,7 +95,7 @@
                         <!-- Content -->
                         <div class="carousel-caption">
                             <div class="title title2 ">
-                            <h1 class="text-white">Your Trusted Partner in Project Finance</h1>
+                                <h1 class="text-white">Your Trusted Partner in Project Finance</h1>
                             </div>
                             <div class="btn-group" data-aos="fade-right" data-aos-duration="1200">
 

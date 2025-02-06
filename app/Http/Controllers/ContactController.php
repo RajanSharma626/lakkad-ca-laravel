@@ -53,7 +53,7 @@ class ContactController extends Controller
         ]);
 
         // Send Email
-        Mail::to('rajankumarsharma681@gmail.com')->send(new ContactFormMail($validatedData));
+        Mail::to('lakkadconsultancy@gmail.com')->send(new ContactFormMail($validatedData));
 
         return back()->with('success', 'Form submitted successfully!');
     }

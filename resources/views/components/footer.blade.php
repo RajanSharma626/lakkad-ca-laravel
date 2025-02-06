@@ -62,7 +62,7 @@
                                 <div class="contact-icon">
                                     <i class="bi bi-geo-alt"></i>
                                 </div>
-                                <a href="#">9, 7th Floor, Reliance Office Plaza in Reliance Mall, opposite
+                                <a href="#">9B, 7th Floor, Reliance Office Plaza in Reliance Mall, opposite
                                     Passport Seva Kendra, near Udhna Darwaja, Suman Desai NI Wadi, Khatodra Wadi, Surat,
                                     Gujarat 395002</a>
                             </div>
