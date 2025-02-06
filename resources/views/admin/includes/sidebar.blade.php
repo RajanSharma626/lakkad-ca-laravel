@@ -9,21 +9,21 @@
                 <li class="menu-title" key="t-menu">Menu</li>
 
                 <li>
-                    <a href="dashboard" class="waves-effect">
+                    <a href="/admin/dashboard" class="waves-effect">
                         <i class="bx bx-home-circle"></i>
                         <span key="t-dashboards">Dashboards</span>
                     </a>
                 </li>
 
                 <li>
-                    <a href="testimonials" class="waves-effect">
+                    <a href="/admin/testimonials" class="waves-effect">
                         <i class="bx bx-chat"></i>
                         <span key="t-testimonials">Testimonials</span>
                     </a>
                 </li>
 
                 <li>
-                    <a href="faqs" class="waves-effect">
+                    <a href="/admin/faqs" class="waves-effect">
                         <i class="bx bx-conversation"></i>
                         <span key="t-faq">FAQs</span>
                     </a>

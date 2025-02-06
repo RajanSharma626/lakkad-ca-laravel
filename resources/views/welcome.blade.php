@@ -700,20 +700,6 @@
 
     <x-foot />
 
-    <script>
-        $("#rev_slider_1").show().revolution({
-            sliderType: "standard",
-            sliderLayout: "fullscreen",
-            delay: 5000,
-            navigation: {
-                arrows: {
-                    enable: true,
-                    style: "", // Keep empty for default to use custom styles
-                },
-            },
-        });
-    </script>
-
 </body>
 
 

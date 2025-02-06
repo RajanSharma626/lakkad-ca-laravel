@@ -24,7 +24,7 @@
                                                 </a></li>
                                         </ul>
                                     </li>
-                                    <li class="dropdown-parrent"><a href="/state-government-policy">State-government-policy </a>
+                                    <li><a href="/state-government-policy">State-government-policy </a>
                                     </li>
                                     <li><a href="/faq">FAQs</a></li>
 

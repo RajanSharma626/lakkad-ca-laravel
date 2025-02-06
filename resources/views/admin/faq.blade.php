@@ -64,7 +64,7 @@
                                                 <p class="text-muted">{{$faq->answer}}.</p>
                                                     
                                                     <div class="mt-2">
-                                                        <a href="edit-faq" class="btn btn-sm btn-primary">Edit</a>
+                                                        <a href="edit-faq/{{$faq->id}}" class="btn btn-sm btn-primary">Edit</a>
                                                         <a href="faqs/delete/{{$faq->id}}" class="btn btn-sm btn-danger">Delete</a>
                                                     </div>
                                                 </div>
@@ -89,7 +89,7 @@
 
     </div>
     <!-- END layout-wrapper -->
-
+    @include('admin.includes.foot')
 </body>
 
 </html>

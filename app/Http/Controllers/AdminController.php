@@ -19,17 +19,18 @@ class AdminController extends Controller
     public function manageTestimonial($id)
     {
         $testimonial = Testimonial::find($id);
-        return view('admin.edit-testimonial', compact('testimonial'));
+        return view('admin.add-testimonial', compact('testimonial'));
     }
 
-    public function updateTestimonial(Request $request, $id)
+    public function updateTestimonial(Request $request)
     {
         $request->validate([
             'name' => 'required',
+            'id' => 'required',
             'testimonial' => 'required',
         ]);
 
-        $testimonial = Testimonial::find($id);
+        $testimonial = Testimonial::find($request->id);
         $testimonial->name = $request->name;
         $testimonial->testimonial = $request->testimonial;
         $testimonial->save();
@@ -43,7 +44,7 @@ class AdminController extends Controller
         $testimonial->delete();
 
         return redirect('/admin/testimonials')->with('success', 'Testimonial deleted successfully');
-    }   
+    }
 
 
     public function addTestimonial(Request $request)
@@ -68,7 +69,13 @@ class AdminController extends Controller
         $faqs = Faq::orderBy('id', 'desc')
             ->get();
 
-        return view('admin.faq' , compact('faqs'));
+        return view('admin.faq', compact('faqs'));
+    }
+
+    public function manageFaq($id)
+    {
+        $faq = Faq::find($id);
+        return view('admin.add-faq', compact('faq'));
     }
 
     public function addFaq(Request $request)
@@ -84,6 +91,22 @@ class AdminController extends Controller
         $faq->save();
 
         return redirect('/admin/faqs')->with('success', 'FAQ added successfully');
+    }
+
+    public function updateFaq(Request $request)
+    {
+        $request->validate([
+            'question' => 'required',
+            'id' => 'required',
+            'answer' => 'required',
+        ]);
+
+        $faq = Faq::find($request->id);
+        $faq->question = $request->question;
+        $faq->answer = $request->answer;
+        $faq->save();
+
+        return redirect('/admin/faqs')->with('success', 'FAQ updated successfully');
     }
 
     public function deleteFaq($id)

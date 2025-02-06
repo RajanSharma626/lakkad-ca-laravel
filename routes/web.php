@@ -91,10 +91,11 @@ Route::middleware([AuthMiddleware::class])->group(function () {
     });
 
     Route::get('/admin/edit-testimonials/{id}', [AdminController::class, 'manageTestimonial']);
+
     // delete testimonial
     Route::get('/admin/testimonials/delete/{id}', [AdminController::class, 'deleteTestimonial'])->name('admin.testimonials.delete');
 
-    Route::post('/admin/testimonials/update', [AdminController::class, 'addTestimonial'])->name('admin.testimonials.update');
+    Route::post('/admin/testimonials/update', [AdminController::class, 'updateTestimonial'])->name('admin.testimonials.update');
     Route::post('/admin/testimonials/add', [AdminController::class, 'addTestimonial'])->name('admin.testimonials.store');
 
     // ========== FQA ==========
@@ -102,7 +103,9 @@ Route::middleware([AuthMiddleware::class])->group(function () {
     Route::get('/admin/add-faq', function () {
         return view('admin.add-faq');
     });
+    Route::get('/admin/edit-faq/{id}', [AdminController::class, 'manageFaq']);
     Route::post('/admin/faq/add', [AdminController::class, 'addFaq'])->name('admin.faq.store');
+    Route::post('/admin/faq/update', [AdminController::class, 'updateFaq'])->name('admin.faq.update');
     Route::get('/admin/faqs/delete/{id}', [AdminController::class, 'deleteFaq'])->name('admin.faq.delete');
 
 });

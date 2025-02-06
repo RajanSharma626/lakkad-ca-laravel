@@ -75,7 +75,7 @@
                                                                     </p>
 
                                                                     <div>
-                                                                        <a href="edit-testimonials/ {{ $testimonial->id }}"
+                                                                        <a href="edit-testimonials/{{ $testimonial->id }}"
                                                                             class="btn btn-sm btn-primary">Edit <i
                                                                                 class="mdi mdi-arrow-right"></i></a>
                                                                         <a href="/admin/testimonials/delete/{{ $testimonial->id }}"
@@ -111,7 +111,7 @@
 
     </div>
     <!-- END layout-wrapper -->
-
+    @include('admin.includes.foot')
 </body>
 
 </html>
