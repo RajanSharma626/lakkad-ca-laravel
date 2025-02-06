@@ -18941,7 +18941,7 @@ li.multi-dropdown-parrent:hover>ul.multi-dropdown.theme-dropdown {
   position: fixed;
   height: 100%;
   width: 100%;
-  background: #5C5B79;
+  background: var(--primary-color);
   z-index: 99;
   padding: 40px 30px;
   left: -100%;
